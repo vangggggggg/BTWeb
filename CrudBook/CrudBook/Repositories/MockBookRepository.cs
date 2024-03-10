@@ -21,17 +21,17 @@ namespace CrudBook.Repositories
                 new Book() { Id = 2, Author = "Seimaru Amagi" ,Name ="Kindaichi Short File 4" ,Description ="Lời yêu cầu bảo vệ bức danh họa được gửi đến Kindaichi Hajime." +
                 " Kẻ nhắm đến bức danh họa “Ngôi nhà trong ánh bình minh” chính là siêu trộm hào hoa!!\r\nSiêu trộm hào hoa đã cảnh báo sẽ hành động " +
                 "“Khi bình minh thực sự thức dậ”, liệu Kindaichi có bảo vệ được bức danh họa? Trận đấu cân não đánh cược bằng niềm kiêu hãnh của thám tử và siêu trộm sẽ được mở màn!!"
-                , Price = 49, Title = "Thám Tử Kindaichi Short File 04 Lời Thách Thức Từ Siêu Trộm Hào Hoa",Image ="/images/Kindaichi-short4.jpg"},
+                , Price = 49, Title = "Lời Thách Thức Từ Siêu Trộm Hào Hoa",Image ="/images/Kindaichi-short4.jpeg"},
                 new Book() { Id = 3, Author = "Seimaru Amagi", Name="Kindaichi Short File 5",Description = "Kẻ mở miệng xen vào trận đấu sẽ bị cắt đầu đặt lên trên “Huyết Lưu”." +
                 " Cái đầu người được tìm thấy trên mặt bàn cờ vây lật ngược theo như giai thoại lưu truyền trong giới cờ vây. " +
                 "(“Án mạng trong phòng Huyết Lưu”)\r\nLễ hội văn hóa trường đang diễn ra vui nhộn thì lại xảy ra vụ án mạng tại tiệm cafe hầu gái của Câu lạc bộ Nhiếp ảnh. " +
                 "Liệu Kindaichi có giải đáp được bí ẩn về thi thể kỳ quái trong bộ đồ hầu gái không? (“Án mạng tại lễ hội trường Fudo”)\r\nVụ án mạng xảy ra trên tàu. Hung thủ " +
                 "trở thành nạn nhân trà trộn vào buổi tiệc của idol nổi tiếng Hayami Reika! Kindaichi và thanh tra Kenmochi cũng có mặt tại đó (“Hayami Reika và vị khách không mời”)."
-                , Price = 49, Title = "Thám Tử Kindaichi Short File 05 Án Mạng Trong Phòng Huyết Lưu", Image = "/images/Kindaichi-short5.jpg"},
+                , Price = 49, Title = "Án Mạng Trong Phòng Huyết Lưu", Image = "/images/Kindaichi-short5.jpeg"},
                 new Book() { Id = 4, Author = "Masaki Kishimoto", Name="Naruto" , Description = "Chuyện xảy ra ở làng Lá với nhân vật chính là Naruto, " +
                 "học sinh trường đào tạo Ninja, chuyên đi quấy rối khắp làng!!\r\n\r\nNaruto có một ước mơ to lớn là đạt được danh hiệu Hokage" +
                 " - Một vị trí dành cho Ninja ưu tú nhất - Và vượt qua các Ninja tiền nhiệm.\r\n\r\nTuy nhiên, bí mật về thân thế của Naruto là…!?"
-                , Price = 25, Title = "Naruto Tập 1: Uzumaki Naruto (Tái Bản)", Image = "/images/Uzumaki-naruto.jpg" },
+                , Price = 25, Title = "Naruto Tập 1: Uzumaki Naruto (Tái Bản)" , Image = "/images/Uzumaki.jpg"},
                 new Book() { Id = 5, Author = "Masashi Kishimoto Takashi Yano ",Name = "Itachi Chân Truyền", Description = "Để gia nhập Anbu, Itachi đã đồng hành với người bạn thân Shisui, cả hai đương đầu với nhiệm vụ ám sát gián điệp của làng. Mâu thuẫn giữa tộc Uchiha và làng Lá ngày càng gay gắt, bằng hữu chí cốt bị sát hại... Ôm nỗi tuyệt vọng với làng, với gia tộc," +
                 " cùng đôi mắt vừa khai nhãn và lòng quyết đoán, Itachi đã dấn thân vào đêm thảm kịch.\r\n\r\nNiềm hi vọng gửi gắm cho em trai cùng ước mơ...\r\n\r\nToàn bộ sự thật tàn khốc đều hiện diện ở chốn này."
                 , Price = 66, Title = "Tiểu Thuyết Naruto - Itachi Chân Truyền: Ám Dạ Thiên", Image = "/images/Itachi.jpg" },

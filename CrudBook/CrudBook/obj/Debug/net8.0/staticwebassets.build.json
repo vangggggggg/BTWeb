@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JTeiauOaf4HFbGkXxmv+YY0JuIf9K9YhKCqJfaYT+CE=",
+  "Hash": "Vse7mlg63yCHIj9Lb/6AtxmPVpsOk1rwLwAIP8cgMD4=",
   "Source": "CrudBook",
   "BasePath": "_content/CrudBook",
   "Mode": "Default",
@@ -131,12 +131,12 @@
       "OriginalItemSpec": "wwwroot\\images\\Itachi.jpg"
     },
     {
-      "Identity": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\images\\Kindaichi-short4.jpg",
+      "Identity": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\images\\Kindaichi-short4.jpeg",
       "SourceId": "CrudBook",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\",
       "BasePath": "_content/CrudBook",
-      "RelativePath": "images/Kindaichi-short4.jpg",
+      "RelativePath": "images/Kindaichi-short4.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Kindaichi-short4.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Kindaichi-short4.jpeg"
     },
     {
-      "Identity": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\images\\Kindaichi-short5.jpg",
+      "Identity": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\images\\Kindaichi-short5.jpeg",
       "SourceId": "CrudBook",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\",
       "BasePath": "_content/CrudBook",
-      "RelativePath": "images/Kindaichi-short5.jpg",
+      "RelativePath": "images/Kindaichi-short5.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Kindaichi-short5.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Kindaichi-short5.jpeg"
     },
     {
       "Identity": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\images\\Sherlock_home.jpg",
@@ -188,12 +188,12 @@
       "OriginalItemSpec": "wwwroot\\images\\Sherlock_home.jpg"
     },
     {
-      "Identity": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\images\\Uzumaki-naruto.jpg",
+      "Identity": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\images\\Uzumaki.jpg",
       "SourceId": "CrudBook",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\",
       "BasePath": "_content/CrudBook",
-      "RelativePath": "images/Uzumaki-naruto.jpg",
+      "RelativePath": "images/Uzumaki.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Uzumaki-naruto.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Uzumaki.jpg"
     },
     {
       "Identity": "E:\\daihoc\\school\\WEB\\BTNhom\\Tuan 4\\BTWeb\\CrudBook\\CrudBook\\wwwroot\\js\\site.js",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudBook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3f3c16f83cc27fb1c3823b475b4871e06c90704")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+837799c001bced5eef061c305ed88e8ad9d12c71")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudBook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudBook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
