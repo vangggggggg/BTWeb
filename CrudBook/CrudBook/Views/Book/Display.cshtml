@@ -1,0 +1,16 @@
+﻿@model CrudBook.Models.Book;
+@{
+    ViewData["Title"] = "Display";
+    Layout = "~/Views/Shared/myLayout.cshtml";
+}
+
+<h1>Thong Tin Chi Tiet</h1>
+<div>
+    <h3>Tên Sách: @Model.Name</h3>
+    <h4>Tổng Quan: @Model.Title</h4>
+    <h4>Tác Giả: @Model.Author</h4>
+    <h4>Giá: @Model.Price</h4>
+    <img src="@Model.Image" alt="Product Image" />
+    <h4>Mô Tả: @Model.Description</h4>
+</div>
+<a asp-action="Index">Back to List</a>

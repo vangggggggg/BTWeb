@@ -1,0 +1,42 @@
+﻿@model CrudBook.Models.Book;
+@{
+    ViewData["Title"] = "Add";
+	Layout = "~/Views/Shared/myLayout.cshtml";
+}
+
+<h1>Add Book</h1>
+<form asp-action="Add" enctype="multipart/form-data">
+	<div asp-validation-summary="All" class="text-danger"></div>
+	<div class="form-group">
+		<label asp-for="Name"></label>
+		<input asp-for="Name" class="form-control" />
+		<span asp-validation-for="Name" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Title"></label>
+		<input asp-for="Title" class="form-control" />
+		<span asp-validation-for="Title" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Author"></label>
+		<input asp-for="Author" class="form-control" />
+		<span asp-validation-for="Author" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Description"></label>
+		<textarea asp-for="Description" class="form-control" rows="10" style="height:100%;"></textarea>
+		<span asp-validation-for="Description" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Image">Image</label>
+		<input type="file" asp-for="Image" class="form-control" />
+	</div>
+	<div class="form-group">
+		<label asp-for="Price">Category</label>
+		<textarea asp-for="Price" class="form-control"></textarea>
+		<span asp-validation-for="Price" class="text-danger"></span>
+	</div>
+	
+	<button type="submit" class="btn btn-primary">Add</button>
+</form>
+

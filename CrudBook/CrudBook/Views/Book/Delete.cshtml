@@ -1,0 +1,20 @@
+﻿@model CrudBook.Models.Book;
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/myLayout.cshtml";
+}
+
+
+<h2>Bạn có muốn xóa sách này</h2>
+<div>
+	<h4>Tên Sách: @Model.Name</h4>
+	<h4>Giá: @Model.Price</h4>
+	<h4>Tiêu đề: @Model.Title</h4>
+	<img src="@Model.Image" alt="Product Image" />
+</div>
+<form asp-action="Delete" method="post">
+	<input type="hidden" asp-for="Id" />
+	<input type="submit" value="Delete" class="btn btn-danger" /> |
+	<a asp-action="Index">Cancel</a>
+</form>
+
