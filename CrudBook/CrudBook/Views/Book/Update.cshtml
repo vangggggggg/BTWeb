@@ -29,7 +29,7 @@
 	</div>
 	<div class="form-group">
 		<label asp-for="Image">Image</label>
-		<input type="file" asp-for="Image" class="form-control" />
+		<input type="file" asp-for="Image" class="form-control" id="fileInput" accept="image/*" />
 	</div>
 	<div class="form-group">
 		<label asp-for="Price">Price</label>
@@ -39,4 +39,12 @@
 
 	<button type="submit" class="btn btn-primary">Save</button>
 </form>
+<script>
+	document.getElementById('fileInput').addEventListener('change', function (event) {
+		var file = event.target.files[0];
+		var imageType = /^image\//;
 
+		if (!imageType.test(file.type))
+			alert('File is not an image');
+	});
+</script>

@@ -2,11 +2,14 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using CrudBook.Models;
+using System.IO;
+
 namespace CrudBook.Controllers
 {
     public class BookController : Controller
     {
         private readonly IBookRepository _bookRepository;
+
         public IActionResult Index()
         {
             var books = _bookRepository.GetAll();
@@ -37,7 +40,7 @@ namespace CrudBook.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (Image != null)
+                if (Image != null )
                 {
                     book.Image = await SaveImages(Image);
                 }
